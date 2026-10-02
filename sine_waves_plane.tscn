@@ -1,0 +1,8 @@
+[gd_scene format=3 uid="uid://1sh4x7j5hwds"]
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_6phiu"]
+
+[node name="Root" type="Node3D" unique_id=370496373]
+
+[node name="Plane" type="MeshInstance3D" parent="." unique_id=587540279]
+mesh = SubResource("PlaneMesh_6phiu")
