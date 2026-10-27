@@ -5,9 +5,10 @@
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_28fbp"]
 render_priority = 0
 shader = ExtResource("1_2dse5")
-shader_parameter/bumpiness = 0.212
+shader_parameter/bumpiness = Vector2(1, 1)
 shader_parameter/displacement = 0.200000057
-shader_parameter/frequency = 4.0
+shader_parameter/frequency = Vector2(4, 2)
+shader_parameter/function = 2
 
 [sub_resource type="TorusMesh" id="TorusMesh_2ma71"]
 
